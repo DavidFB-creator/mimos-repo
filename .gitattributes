@@ -1,0 +1,4 @@
+# Package files and detached signatures are binary. Git's line-ending
+# conversion would rewrite bytes on checkout and invalidate every signature
+# while leaving the repository looking correct.
+* -text
